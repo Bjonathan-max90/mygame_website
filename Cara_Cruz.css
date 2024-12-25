@@ -1,0 +1,8 @@
+button[id="appear"] {
+    transform: translate(250px, -20px)
+  }
+  
+  .hide {
+      display: none
+  }
+  

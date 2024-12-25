@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Este es mi titulo</title>
+    <link rel="stylesheet" href="Cara_Cruz.css">
+    
+
+</head>
+<body>
+    <form>
+        <input type="radio" name="anatomy" value="head"> Head
+        <input type="radio" name="anatomy" value="tail"> Tail
+        
+        <button type="button" onclick="testYourLuck()"> Submit</button>
+      </form>
+      
+      <button class= "hide" id="appear" onclick="appearance()">Hide</button>
+      
+      <!-- First information -->
+      <p id="result"></p>
+      
+      <!-- Second Information -->
+      <form>
+          <br>
+          <div id="corrects"></div>
+          <div id="incorrects"></div>
+      </form>
+    <script src="Cara_Cruz.js"></script>
+</body>
+</html>
